@@ -1,0 +1,52 @@
+/*
+  Class:    4A7B
+  Name:     Vincent
+  Purpose:  Eindtoets
+  
+  mm-dd-yyyy  Description
+  ----------  -----------------------------
+  7-11-2017  Initial
+*/
+
+/************************************************
+ *Include the padding and border to all elements*
+ ************************************************/
+* {
+  box-sizing: border-box;
+}
+/************************
+ *Default setting       *
+ ************************/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 100%;
+  font-family: 'Arial', 'Calibri', 'Helvetica';
+  color: black;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0px;
+  background-color: blue;
+  color: black;
+  font-size: 3.0em;
+  border: 3px solid black;
+}
+
+.list {
+  float: left;
+  font-size: 1.5em;
+  color: #2E3192;
+}
+
+.list ul {
+  list-style-type: square;
+}
+
+
+  
